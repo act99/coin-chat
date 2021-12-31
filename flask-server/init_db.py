@@ -28,4 +28,5 @@ def get_url():
         db.btcdb.insert_one(doc)
         print(str(index) + "번째 데이터 수집 완료")
 
+db.btcdb.drop()
 get_url()
